@@ -10,9 +10,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="main">
-      <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
-    </div>
+   <div class="checkout-panel">
+  <div class="panel-body">
+    <h2 class="title">Checkout</h2>
+    <label for="ccname">Name on card</label>
+<input name="ccname" type="text"   autocomplete="input"> 
+
+
+<label for="cardnumber">Card Number</label>
+<input name="cardnumber" type="number"  required autocomplete="input">
+
+
+<label for="cc-exp">Expiry</label>
+<input name="cc-exp" type="number"  required placeholder="MM-YYYY" autocomplete="input">
+
+<label for="cvc">CVC</label>
+<input name="cvc" type="number"  required autocomplete="input">
   </body>
 </html>
